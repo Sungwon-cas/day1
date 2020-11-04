@@ -13,14 +13,14 @@ public class PostController {
     }
     @PutMapping("/putMethod")
     public  void put(){
-
+        System.out.println("putMethod 호출");
     }
     @PatchMapping("/pathMethod")
     public void path(){
-
+        System.out.println("PatchMethod 호출");
     }
     @DeleteMapping("/deleteMethod")
     public void delete(){
-
+        System.out.println("DeleteMethod 호출");
     }
 }
